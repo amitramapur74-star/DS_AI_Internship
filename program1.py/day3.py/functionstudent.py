@@ -5,7 +5,7 @@ def student_result():
     n = int(input("Enter number of subjects: "))
 
     for i in range(n):
-        mark = int(input(f"Enter mark {i+1}: "))
+        mark = int(input("Enter mark {i+1}: "))
         marks.append(mark)
 
     avg = sum(marks) / len(marks)
